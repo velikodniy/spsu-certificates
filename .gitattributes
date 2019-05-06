@@ -1,1 +1,6 @@
-assets/* filter=lfs diff=lfs merge=lfs -text
+assets/PTSans.z filter=lfs diff=lfs merge=lfs -text
+assets/PTSans.json filter=lfs diff=lfs merge=lfs -text
+assets/PTSerif.z filter=lfs diff=lfs merge=lfs -text
+assets/PTSerif.json filter=lfs diff=lfs merge=lfs -text
+aassets/certificate.jpeg filter=lfs diff=lfs merge=lfs -text
+

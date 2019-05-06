@@ -1,5 +1,8 @@
 package main
 
+//go:generate go get -v github.com/jteeuwen/go-bindata/go-bindata
+//go:generate go-bindata -pkg main -o assets.go assets
+
 import "github.com/jung-kurt/gofpdf"
 import (
 	"bytes"
